@@ -30,3 +30,15 @@ $ ./vendor/bin/sail up -d
 > git remote add origin https://github.com/imo-tikuwa/laravel-sail-example.git
 > git push -u origin master
 ```
+
+### プロジェクト作成者以外（開発者）の環境構築手順
+```
+> cd /D c:/workspace_git
+> git clone https://github.com/imo-tikuwa/laravel-sail-example.git
+> cd laravel-sail-example
+> composer install
+> wsl
+$ cd /mnt/c/workspace_git/laravel-sail-example
+$ cp .env.example .env
+$ vendor/bin/sail up -d
+```
