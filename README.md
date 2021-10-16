@@ -1,6 +1,6 @@
 ## laravel sailを使った環境構築のメモ
 ### 環境情報  
-規定としてUbuntu20.04を設定している状態
+wslは規定としてUbuntu20.04を設定している状態
 ```
 > wsl -l -v
   NAME                   STATE           VERSION
@@ -9,6 +9,7 @@
 > docker --version
 Docker version 20.10.8, build 3967b7d
 
+WindowsのバージョンはWindows 10 Home
 DockerDesktopのバージョンは4.4.1
 ```
 
