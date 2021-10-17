@@ -37,9 +37,9 @@ $ ./vendor/bin/sail up -d
 > git clone https://github.com/imo-tikuwa/laravel-sail-example.git
 > cd laravel-sail-example
 > composer install
+> cp .env.example .env
 > php artisan key:generate
 > wsl
 $ cd /mnt/c/workspace_git/laravel-sail-example
-$ cp .env.example .env
 $ vendor/bin/sail up -d
 ```
