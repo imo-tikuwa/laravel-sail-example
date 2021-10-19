@@ -43,3 +43,12 @@ $ ./vendor/bin/sail up -d
 $ cd /mnt/c/workspace_git/laravel-sail-example
 $ vendor/bin/sail up -d
 ```
+
+### sailのエイリアス設定について
+ - wslでUbuntu-20.04を使ってるのであれば`.bash_aliases`にsailのエイリアスを作ると良さげ
+   - `/home/[ユーザー名]`直下の`.bashrc`に`.bash_aliases`があれば読み込むっていう記述がある
+   - `.bash_aliases`を作成し、以下追加
+     ```
+     alias sail='./vendor/bin/sail'
+     ```
+   - 他のOSも同じような感じで設定できるはず
