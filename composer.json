@@ -9,6 +9,11 @@
             "type": "path",
             "url": "./packages/model-generator",
             "symlink": true
+        },
+        {
+            "type": "path",
+            "url": "./packages/operation-logs",
+            "symlink": true
         }
     ],
     "require": {
@@ -16,6 +21,7 @@
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "imo-tikuwa/laravel-model-generator": "dev-master",
+        "imo-tikuwa/laravel-operation-logs": "dev-master",
         "laravel/framework": "^8.54",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5"

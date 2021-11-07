@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc08da2196a5ba94daf6b781a1adb4ac",
+    "content-hash": "d4a8f30181576eaadf1412f5423ef004",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1385,6 +1385,42 @@
                 "MIT"
             ],
             "description": "laravel-model-generator",
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "imo-tikuwa/laravel-operation-logs",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "./packages/operation-logs",
+                "reference": "ea6a590ca450f730e475a2b03726a29939d28083"
+            },
+            "require": {
+                "laravel/framework": "^8.54",
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "barryvdh/laravel-ide-helper": "^2.10"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "ImoTikuwa\\OperationLogs\\Providers\\OperationLogsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ImoTikuwa\\OperationLogs\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "laravel-operation-logs",
             "transport-options": {
                 "relative": true
             }
@@ -9281,7 +9317,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "imo-tikuwa/laravel-model-generator": 20
+        "imo-tikuwa/laravel-model-generator": 20,
+        "imo-tikuwa/laravel-operation-logs": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

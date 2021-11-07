@@ -1,3 +1,6 @@
 [submodule "packages/model-generator"]
 	path = packages/model-generator
 	url = https://github.com/imo-tikuwa/laravel-model-generator.git
+[submodule "packages/operation-logs"]
+	path = packages/operation-logs
+	url = https://github.com/imo-tikuwa/laravel-operation-logs.git
